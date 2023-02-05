@@ -1,4 +1,4 @@
-#include <iostream>
+#include "Header.h"
 using namespace std;
 
 int main()
@@ -31,4 +31,16 @@ int main()
 	cout << "[Adventure Game]" << endl;
 	// Initializes random seed
 	srand(time(0));
+
+	// Map variables
+	const int MAP_WIDTH = 10;
+	const int MAP_HEIGHT = 5;
+	shared_ptr<Map> gameMap = make_shared<Map>(MAP_WIDTH, MAP_HEIGHT);
+
+
+
+
+
+
+
 }
